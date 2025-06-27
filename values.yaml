@@ -1,0 +1,21 @@
+opencost:
+  customPricing:
+    enabled: true
+    costModel:
+      description: Modified pricing configuration.
+      CPU: 1.25
+      spotCPU: 0.006655
+      RAM: 0.50
+      spotRAM: 0.000892
+      GPU: 0.95
+      storage: 0.25
+      zoneNetworkEgress: 0.01
+      regionNetworkEgress: 0.01
+      internetNetworkEgress: 0.12
+
+  carbonCost:
+    enabled: true
+
+  cloudCost:
+    # -- Enable cloud cost ingestion and querying, dependant on valid integration credentials
+    enabled: false
