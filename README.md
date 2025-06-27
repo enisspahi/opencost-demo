@@ -8,7 +8,7 @@ paginate: true
 
 # What is OpenCost?
 
-OpenCost is an open source cost monitoring tool for Kubernetes environments.  
+OpenCost is a FinOps cost monitoring tool for Kubernetes environments.  
 It provides real-time visibility into resource usage and associated costs, helping teams optimize cloud spend and improve efficiency.
 
 - **Open Source**: Free and community-driven (CNCF)
@@ -19,9 +19,9 @@ It provides real-time visibility into resource usage and associated costs, helpi
 
 # Integrations
 
-- **Cloud Providers**: Supports AWS, GCP, Azure, and others for cloud cost allocation.
+- **Cloud Providers**: AWS, GCP, Azure, and others for cloud cost allocation.
 - **On-Premises**: Default and custom pricing for on-prem.
-- **Others**: Prometheus, Grafana, kubectl cost, Backstage.
+- **Miscellaneous**: Prometheus, Grafana, kubectl cost, Backstage.
 
 For more details, see the [OpenCost Integrations documentation](https://opencost.io/docs/integrations/).
 
@@ -88,7 +88,7 @@ kubectl cost --service-port 9003 --service-name opencost --kubecost-namespace op
 
 <img src="https://grafana.com/api/dashboards/8670/images/5480/image" alt="OpenCost Grafana Dashboard" width="300"/>
 
-Refer [OpenCost Pormetheus](https://opencost.io/docs/integrations/opencost-exporter#dashboard-examples) for more details.
+Refer [OpenCost Prometheus docs](https://opencost.io/docs/integrations/opencost-exporter#dashboard-examples) for more details.
 
 ---
 
@@ -96,7 +96,7 @@ Refer [OpenCost Pormetheus](https://opencost.io/docs/integrations/opencost-expor
 
 <img src="backstage_plugin.png" alt="Backstage screenshot" width="700"/>
 
-Refer [OpenCost Pormetheus](https://github.com/backstage/community-plugins/blob/main/workspaces/opencost/plugins/opencost/README.md) for more details.
+Refer [Backstage OpenCost plugin](https://github.com/backstage/community-plugins/blob/main/workspaces/opencost/plugins/opencost/README.md) for more details.
 
 ---
 
