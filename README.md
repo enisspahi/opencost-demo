@@ -1,7 +1,7 @@
 ---
 marp: true
-title: OpenCost Helm Installation Guide
-description: Step-by-step instructions for installing OpenCost using Helm
+title: OpenCost
+description: A small OpenCost presentation and demo
 theme: default
 paginate: true
 ---
@@ -14,6 +14,7 @@ It provides real-time visibility into resource usage and associated costs, helpi
 - **Open Source**: Free and community-driven (CNCF)
 - **Kubernetes Native**: Designed for cloud-native workloads
 - **Actionable Insights**: Detailed cost allocation and reporting
+- **Alternatives**: Kubecost (Commercial)
 
 ---
 
@@ -31,6 +32,7 @@ For more details, see the [OpenCost Integrations documentation](https://opencost
 
 ## Prerequisites
 
+- A Kubernetes cluster with `kube-state-metrics` enabled
 - [Prometheus](https://opencost.io/docs/installation/prometheus/)
 
 ## Install OpenCost
