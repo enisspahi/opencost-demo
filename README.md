@@ -84,6 +84,22 @@ kubectl cost --service-port 9003 --service-name opencost --kubecost-namespace op
 
 ---
 
+## Prometheus + Grafana Dashboard
+
+<img src="https://grafana.com/api/dashboards/8670/images/5480/image" alt="OpenCost Grafana Dashboard" width="300"/>
+
+Refer [OpenCost Pormetheus](https://opencost.io/docs/integrations/opencost-exporter#dashboard-examples) for more details.
+
+---
+
+## Backstage
+
+<img src="backstage_plugin.png" alt="Backstage screenshot" width="700"/>
+
+Refer [OpenCost Pormetheus](https://github.com/backstage/community-plugins/blob/main/workspaces/opencost/plugins/opencost/README.md) for more details.
+
+---
+
 ## References
 
 - [OpenCost Documentation](https://www.opencost.io/docs/)
